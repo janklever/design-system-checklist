@@ -59,8 +59,7 @@ const HomeRoute = (props) => {
 
 export async function getStaticProps({ locale }) {
   const tCore = (await import(`../src/translations/${locale}/core`)).default;
-  const tContent = (await import(`../src/translations/${locale}/content`))
-    .default;
+  const tContent = (await import(`../src/translations/${locale}/content`)).default;
 
   return {
     props: { tCore, tContent },

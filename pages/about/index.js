@@ -5,8 +5,8 @@ import s from "./about.module.css";
 
 const AboutText = () => {
   return (
-    <span className={s.text}>
-      Hello, we're{" "}
+    <p className={s.text}>
+      Olá, nós somos{" "}
       <a
         className={s.link}
         href="https://twitter.com/ardakaracizmeli"
@@ -23,8 +23,7 @@ const AboutText = () => {
         rel="noopener noreferrer"
       >
         Dmitry Belyaev
-      </a>
-      , and{" "}
+      </a> e {" "}
       <a
         className={s.link}
         href="https://www.linkedin.com/in/stevenbaguley/"
@@ -36,30 +35,35 @@ const AboutText = () => {
       .
       <br />
       <br />
-      We’ve been working on design systems for a long time. And we’ve spotted
-      the similarities they all share. This website is a collection of best
-      practices to help you build extensive and robust design systems wherever
-      you work.
+      Trabalhamos em sistemas de design há muito tempo. E identificamos as semelhanças que todos compartilham. Este site é uma coleção de práticas recomendadas para ajudá-lo a criar sistemas de design abrangentes e robustos onde quer que você trabalhe.
       <br />
       <br />
-      Our categories might not look exactly like the system you’ve planned (or
-      already have). But this isn’t meant to be a definitive list of items for
-      every design system. It's a set of guidelines for you to keep track of
-      everything you’ll want to check off to provide a solid user experience.
-      <br />
-      <br />
-      Everything you see here is open source. If you’d like to see additional
-      content on this website or if you have feedback, please{" "}
+      Nossas categorias podem não se parecer exatamente com o sistema que você planejou (ou já tem). Mas isso não pretende ser uma lista definitiva de itens para cada sistema de design. É um conjunto de diretrizes para você acompanhar tudo o que deseja verificar para fornecer uma experiência de usuário sólida.
+       <br />
+       <br />
+       Tudo o que você vê aqui é de código aberto. Se você gostaria de ver conteúdo adicional neste site ou se você tiver comentários, por favor{" "}
       <a
         className={s.link}
         href="https://github.com/ardakaracizmeli/design-system-checklist"
         target="_blank"
         rel="noopener noreferrer"
       >
-        contribute
+        contribua
       </a>
       .
-    </span>
+       <br />
+       <br />
+       Adaptação para o português por{" "}
+      <a
+        className={s.link}
+        href="https://janklever.work"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Jan Klever
+      </a>
+      .
+    </p>
   );
 };
 
@@ -67,7 +71,7 @@ const AboutRoute = ({ tCore }) => {
   return (
     <Layout tCore={tCore}>
       <div className={s.container}>
-        <Hero title="About" subtitle={<AboutText />} />
+        <Hero title={tCore.about} subtitle={<AboutText />} />
       </div>
     </Layout>
   );

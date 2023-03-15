@@ -24,58 +24,58 @@ const App = ({ Component, pageProps }) => {
         <meta name="title" content="Design System Checklist" />
         <meta
           name="description"
-          content="An open-source checklist to help you plan, build and grow your design system."
+          content="Um checklist de código aberto para ajudá-lo a planejar, construir e expandir seu sistema de design."
         />
         <meta name="robots" content="index,follow" />
         <meta name="googlebot" content="index,follow" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://designsystemchecklist.com/" />
+        <meta property="og:url" content="https://designsystemchecklist.com.br/" />
         <meta property="og:title" content="Design System Checklist" />
         <meta
           property="og:description"
-          content="An open-source checklist to help you plan, build and grow your design system."
+          content="Um checklist de código aberto para ajudá-lo a planejar, construir e expandir seu sistema de design."
         />
         <meta
           property="og:image"
-          content="https://designsystemchecklist.com/meta.png"
+          content="https://designsystemchecklist.com.br/meta.png"
         />
         <meta property="og:image:alt" content="Design System Checklist" />
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale" content="pt_BR" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://designsystemchecklist.com/"
+          content="https://designsystemchecklist.com.br/"
         />
         <meta property="twitter:title" content="Design System Checklist" />
         <meta
           property="twitter:description"
-          content="An open-source checklist to help you plan, build and grow your design system."
+          content="Um checklist de código aberto para ajudá-lo a planejar, construir e expandir seu sistema de design."
         />
         <meta
           property="twitter:image"
-          content="https://designsystemchecklist.com/meta.png"
+          content="https://designsystemchecklist.com.br/meta.png"
         />
         <link
           rel="manifest"
-          href="https://designsystemchecklist.com/site.webmanifest"
+          href="https://designsystemchecklist.com.br/site.webmanifest"
         />
-        <link rel="icon" href="https://designsystemchecklist.com/favicon.ico" />
+        <link rel="icon" href="https://designsystemchecklist.com.br/favicon.ico" />
         <link
           rel="apple-touch-icon"
           sizes="152x152"
-          href="https://designsystemchecklist.com/apple-touch-icon.png"
+          href="https://designsystemchecklist.com.br/apple-touch-icon.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="https://designsystemchecklist.com/favicon-32x32.png"
+          href="https://designsystemchecklist.com.br/favicon-32x32.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="https://designsystemchecklist.com/favicon-16x16.png"
+          href="https://designsystemchecklist.com.br/favicon-16x16.png"
         />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="theme-color" content="#ffffff" />

@@ -3,7 +3,7 @@ import s from './ProgressBar.module.css';
 
 const ProgressBar = ({ current, total, className }) => {
   const width = ((100/total) * current);
-  const text = width === 100 ? 'Completed' : current + ' out of ' + total;
+  const text = width === 100 ? 'Completed' : current + ' de ' + total;
 
   return (
     <div className={className}>

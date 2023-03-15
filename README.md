@@ -1,6 +1,6 @@
 ## Design Systems Checklist
 
-https://designsystemchecklist.com
+https://designsystemchecklist.com.br
 
 An open-source checklist to help you plan, build and grow your design system.
 
@@ -21,8 +21,7 @@ $ npm start
 ```
 
 ### Feedback
-Feel free to open github issues or you can reach us directly at:
+Feel free to open github issues.
 
-ardakaracizmeli@gmail.com
-blv.dmitry@gmail.com
-
+### Deploy status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bb18061d-e194-4135-b59e-bc6e2590ec94/deploy-status)](https://app.netlify.com/sites/dschecklist/deploys)
