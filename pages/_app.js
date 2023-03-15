@@ -77,8 +77,8 @@ const App = ({ Component, pageProps }) => {
           sizes="16x16"
           href="https://designsystemchecklist.com.br/favicon-16x16.png"
         />
-        <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="msapplication-TileColor" content="#d2c0a7" />
+        <meta name="theme-color" content="#d2c0a7" />
       </Head>
 
       <ScrollToTop />
