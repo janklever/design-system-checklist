@@ -1,5 +1,5 @@
 export default {
-  id: "core-components",
+  id: "componentes-principais",
   sections: [
     {
       id: "cc-avatar",

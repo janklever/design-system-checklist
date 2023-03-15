@@ -5,9 +5,9 @@ import tooling from "./tooling";
 import projectManagement from "./projectManagement";
 
 export default {
-  "design-language": designLanguage,
-  "design-tokens": designTokens,
-  "core-components": coreComponents,
-  tooling,
-  "project-management": projectManagement,
+  "linguagem-de-design": designLanguage,
+  "tokens-de-design": designTokens,
+  "componentes-principais": coreComponents,
+  "ferramentas": tooling,
+  "gerenciamento-de-projetos": projectManagement,
 };

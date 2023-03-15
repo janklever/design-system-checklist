@@ -10,7 +10,7 @@ const ExportButton = ({ text, feedbackText }) => {
 
   const handleExport = () => {
     const exportId = encode(checkedIds.join(","));
-    const baseUrl = `${window.location.origin}/export`;
+    const baseUrl = `${window.location.origin}/exportado`;
     const exportUrl = exportId ? `${baseUrl}/${exportId}` : baseUrl;
 
     copyToClipboard(exportUrl);

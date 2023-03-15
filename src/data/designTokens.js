@@ -1,5 +1,5 @@
 export default {
-  id: "design-tokens",
+  id: "tokens-de-design",
   sections: [
     {
       id: "dt-color",

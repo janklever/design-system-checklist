@@ -1,5 +1,5 @@
 export default {
-  id: "project-management",
+  id: "gerenciamento-de-projetos",
   sections: [
     {
       id: "pm-task-management",

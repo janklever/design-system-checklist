@@ -1,5 +1,5 @@
 export default {
-  id: "design-language",
+  id: "linguagem-de-design",
   sections: [
     {
       id: "dl-brand",

@@ -62,13 +62,13 @@ const CategoryRoute = (props) => {
             nextLabel={tCore.next}
             next={
               next
-                ? { text: next.title, url: `/category/${next.id}/` }
-                : { text: tCore.exportAction, url: "/share/" }
+                ? { text: next.title, url: `/categoria/${next.id}/` }
+                : { text: tCore.exportAction, url: "/compartilhar/" }
             }
             previous={
               previous && {
                 text: previous.title,
-                url: `/category/${previous.id}/`,
+                url: `/categoria/${previous.id}/`,
               }
             }
           />
@@ -81,11 +81,11 @@ const CategoryRoute = (props) => {
 export async function getStaticPaths() {
   return {
     paths: [
-      "/category/design-language",
-      "/category/design-tokens",
-      "/category/core-components",
-      "/category/tooling",
-      "/category/project-management",
+      "/categoria/linguagem-de-design",
+      "/categoria/tokens-de-design",
+      "/categoria/componentes-principais",
+      "/categoria/ferramentas",
+      "/categoria/gerenciamento-de-projetos",
     ],
     fallback: true,
   };

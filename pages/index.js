@@ -27,7 +27,7 @@ const HomeRoute = (props) => {
     });
 
     return (
-      <Link href={`/category/${item.id}/`} key={item.id}>
+      <Link href={`/categoria/${item.id}/`} key={item.id}>
         <a className={s.listItem}>
           <SectionTitle
             title={tContent?.[item.id]?.title}
@@ -47,7 +47,7 @@ const HomeRoute = (props) => {
     <Layout tCore={tCore}>
       <div className={s.container}>
         <Hero title={tCore.heroTitle} subtitle={tCore.heroSubtitle}>
-          <Link href="/category/design-language">
+          <Link href="/categoria/linguagem-de-design">
             <Button text={tCore.heroAction} />
           </Link>
         </Hero>

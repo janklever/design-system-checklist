@@ -1,5 +1,5 @@
 export default {
-  id: "tooling",
+  id: "ferramentas",
   sections: [
     {
       id: "t-design",
