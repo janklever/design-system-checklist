@@ -53,11 +53,12 @@ const Header = ({ tCore }) => {
           </li>
           <li className={s.item}>
             <a
-              href="https://github.com/ardakaracizmeli/design-system-checklist"
+              href="https://designsystemchecklist.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              {tCore.contribute}
+              {/* {tCore.contribute} */}
+              Versão em inglês ↗
             </a>
           </li>
         </ul>

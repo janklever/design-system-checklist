@@ -9,9 +9,9 @@ const Footer = ({ tCore }) => {
       <div className={s.content}>
         <h4 className={s.title}>{tCore.footerTitle}</h4>
         <p className={s.text}>{tCore.footerText}</p>
-        <Link href="https://reshaped.so" passHref>
+        {/* <Link href="https://github.com/ardakaracizmeli/design-system-checklist" passHref>
           <Button text={tCore.footerAction} attributes={{ target: "_blank" }} />
-        </Link>
+        </Link> */}
       </div>
     </footer>
   );

@@ -18,13 +18,8 @@ export default {
   exportAction: "Compartilhe seu progresso",
   exportComplete: "Link copiado",
   
-  moreTitle: "Procurando por mais?",
-  moreText:
-    "Usamos este checklist para construir o Reshaped, um sistema de design profissionalmente elaborado para Figma e React. <br /><br /> Ao longo dos anos, vimos tendências surgirem e desaparecerem, enquanto os desafios fundamentais permaneceram. Por isso, escolhemos nos concentrar em coisas que serão relevantes daqui a anos e criamos nossa própria abordagem que funciona em qualquer escala.<br /><br /> Nossa experiência de mais de 10 anos se transformou em um sistema de design white-label que usamos nós mesmos e agora disponibilizamos para outras pessoas.",
-  moreAction: "Saiba mais",
-  
-  footerTitle: "Precisa de mais do que um checklist?",
+  footerTitle: "Gostou do checklist?",
   footerText:
-    "Usamos este checklist para construir o Reshaped, um sistema de design profissionalmente elaborado para Figma e React. O Reshaped oferece licenças regulares com atualizações ilimitadas, acesso ao código-fonte do sistema e consultoria focada em sistemas de design.",
-  footerAction: "Saiba mais",
+    "Este checklist foi originalmente publicado em 2021 no GitHub de Arda Karacizmeli. Em 2023 ele foi traduzido e ganhou uma versão em português mantida por Jan Klever.",
+  footerAction: "Ver no GitHub",
 };
