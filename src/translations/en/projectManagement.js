@@ -1,81 +1,81 @@
 export default {
-  title: "Project management",
+  title: "Gerenciamento de projetos",
   description:
-    "Design systems are no different than any other project your team might take on. In order to successfully build and maintain one, you need a clear strategy that’s well executed daily, and you‘ll need to create opportunities for your colleagues to give feedback to help share your design system together.",
+    "Sistemas de design não são diferentes de qualquer outro projeto que sua equipe possa assumir. Para construir e manter um com sucesso, é preciso uma estratégia clara que seja bem executada diariamente e você precisará criar oportunidades para seus colegas darem feedback para ajudar a compartilhar seu sistema de design juntos.",
   sections: {
     "pm-task-management": {
-      title: "Task management",
+      title: "Gerenciamento de tarefas",
       description:
-        "Solid task management and workflows are a crucial step in executing any project. Adopting a methodology like Agile or Kanban helps you cover a lot of ground.",
+        "Um gerenciamento de tarefas e fluxos de trabalho sólidos são um passo crucial para executar qualquer projeto. Adotar uma metodologia como Agile ou Kanban ajuda você a cobrir muito terreno.",
       checklist: {
         "pm-task-management-roadmap": {
-          title: "Roadmap",
+          title: "Mapa de trabalho",
           description:
-            "Setting your short and long term vision and mapping things out helps you decide the steps to take, understand your place in the bigger picture and prioritise day-to-day tasks.",
+            "Definir sua visão de curto e longo prazo e mapear as coisas ajuda você a decidir as etapas a seguir, entender seu lugar no quadro geral e priorizar as tarefas do dia a dia.",
         },
         "pm-task-management-milestones": {
           title: "Milestones",
           description:
-            "Define milestones that act as bigger epics in your project management with the help of your roadmap. These will help you understand your progress.",
+            "Defina marcos que atuem como grandes épicos em seu gerenciamento de projetos com a ajuda de seu mapa de trabalho. Isso ajudará você a entender seu progresso.",
         },
         "pm-task-management-ticketing": {
-          title: "Ticketing",
+          title: "Acompanhamento de tarefas",
           description:
-            "Make it easier to track your day-to-day progress by using ticketing software like Jira, Trello or GitHub. This’ll make it easier for others to submit feature proposals or bug reports.",
+            "Facilite o acompanhamento do seu progresso diário usando um software de acompanhamento de tarefas como Jira, Trello ou GitHub. Isso tornará mais fácil para os outros enviar propostas de recursos ou relatórios de erros.",
         },
       },
     },
     "pm-communications": {
-      title: "Communications",
+      title: "Comunicação",
       description:
-        "Your users play a great role in shaping your design system. Creating communication channels where they can raise their voices helps you keep track of how they’re using your system. It’ll also improve their sense of ownership and the adoption of your system.",
+        "Seus usuários desempenham um grande papel na formação do seu sistema de design. Criar canais de comunicação onde eles possam levantar suas vozes ajuda você a acompanhar como estão usando seu sistema. Também melhorará seu senso de propriedade e adoção do seu sistema.",
       checklist: {
         "pm-communications-meetings": {
-          title: "Community meetings",
+          title: "Reuniões com a comunidade",
           description:
-            "Arrange community meetings with everyone who uses the design system. Share your knowledge and make proposals to improve the sense of community.",
+            "Agende reuniões com todos que usam o sistema de design. Compartilhe seu conhecimento e faça propostas para melhorar o senso de comunidade.",
         },
         "pm-communications-channel": {
-          title: "Communication channel",
+          title: "Canal de comunicação",
           description:
-            "Most product development work happens digitally, so create a digital channel where people can reach out and ask questions.",
+            "A maioria do trabalho de desenvolvimento de produtos acontece digitalmente, então crie um canal digital onde as pessoas possam entrar em contato e fazer perguntas.",
         },
         "pm-communications-open-hours": {
-          title: "Open hours",
+          title: "Horário livre",
           description:
-            "Create open hours in which you can engage your audience in a more private setting where you can discuss things in more detail. You can also use these as peer coding or peer design opportunities.",
+            "Crie horários livres nos quais você possa envolver sua audiência em um ambiente mais privado, onde possa discutir as coisas com mais detalhes. Você também pode usar esses horários como oportunidades de codificação ou design em equipe.",
         },
         "pm-communications-faq": {
           title: "FAQ",
           description:
-            "To save everyone time, define which questions are asked frequently by your audience and document them in a discoverable place.",
+            "Para economizar tempo de todos, defina quais perguntas são frequentemente feitas por seu público e documente-as em um local acessível.",
         },
       },
     },
     "pm-analytics": {
-      title: "Analytics",
+      title: "Análise de dados",
       description:
-        "Data isn’t the only driving factor when it comes to the development of design systems. Keeping a sharp eye on how your system’s used in the development process and the end product can inform your go-forward strategy.",
+        "Dados não são o único fator de condução quando se trata do desenvolvimento de sistemas de design. Manter um olhar atento sobre como o sistema é usado no processo de desenvolvimento e no produto final pode informar sua estratégia para o futuro.",
       checklist: {
         "pm-analytics-component": {
-          title: "Component analytics",
+          title: "Análise de componentes",
           description:
-            "Track the usage of your components. For development you can use built-in tools like Figma’s Design System Analytics. For the end product you can have a separate way of tracking per platform depending on the technology.",
+            "Acompanhe o uso de seus componentes. Para o desenvolvimento, você pode usar ferramentas integradas como o Design System Analytics do Figma. Para o produto final, você pode ter uma maneira separada de rastrear por plataforma, dependendo da tecnologia.",
         },
         "pm-analytics-logging": {
-          title: "Error logging",
+          title: "Registro de erros",
           description:
-            "Implement a way to track and pinpoint component-related outages in your product.",
+            "Implemente uma maneira de rastrear e identificar interrupções relacionadas a componentes em seu produto.",
         },
         "pm-analytics-tooling": {
-          title: "Tooling analytics",
+          title: "Análise de ferramentas",
           description:
-            "Track what tools are being used for your design system. Find out which ones are used the most and which features are the most popular.",
+            "Acompanhe quais ferramentas estão sendo usadas para o seu sistema de design. Descubra quais são as mais usadas e quais recursos são os mais populares.",
         },
         "pm-analytics-health": {
-          title: "Service and health metrics",
+          title: "Métricas de serviço e saúde",
           description:
-            "Define service and health metrics for your design system to set a benchmark on how well you’re doing. Common examples can be the number of tickets closed, improvements made or bugs fixed.",
+            "Defina métricas de serviço e saúde para seu sistema de design para estabelecer uma referência sobre o quão bem você está indo. Exemplos comuns podem ser o número de tickets fechados, melhorias realizadas ou bugs corrigidos.",
         },
       },
     },

@@ -1,91 +1,91 @@
 export default {
-  title: "Design language",
+  title: "Linguagem de design",
   description:
-    "Like any language, a design language is a methodical way of communicating with your audience through your approach to product design. It’s the cornerstone of consistent customer experiences.",
+    "Assim como qualquer idioma, uma linguagem de design é uma maneira sistemática de se comunicar com o público por meio da abordagem do design de produtos. É o alicerce de experiências consistentes para o cliente.",
   sections: {
     "dl-brand": {
-      title: "Brand",
+      title: "Marca",
       description:
-        "Brand drives every single decision you make when building new products or features. A good brand is much more than a name and a logo. It’s the values that define your unique identity and what makes you stand out from others.",
+        "A marca conduz cada decisão que você toma ao criar novos produtos ou recursos. Uma boa marca é muito mais do que um nome e um logotipo. São os valores que definem sua identidade única e o que o torna diferente dos outros.",
       checklist: {
         "dl-brand-vision": {
-          title: "Vision",
+          title: "Visão",
           description:
-            "Why you exist, what your values are and how they’ll help guide the future of your product.",
+            "Por que você existe, quais são seus valores e como eles ajudarão a guiar o futuro do seu produto.",
         },
         "dl-brand-principles": {
-          title: "Design principles",
+          title: "Princípios de design",
           description:
-            "The considerations that guide the basis of your practice. They outline how you approach design from a philosophical perspective and help with everyday decisions.",
+            "As considerações que orientam a base da sua prática. Eles delineiam como você aborda o design de uma perspectiva filosófica e ajudam nas decisões cotidianas.",
         },
         "dl-brand-tone": {
-          title: "Tone of voice",
+          title: "Tom de voz",
           description:
-            "A clear tone of voice defines how you speak to your audience at every moment in their journey, helping them get wherever they want to go.",
+            "Um tom de voz claro define como você fala com seu público em cada momento da jornada, ajudando-os a chegar onde querem.",
         },
         "dl-brand-terminology": {
-          title: "Terminology",
+          title: "Terminologia",
           description:
-            "Create the standard terms and phrases that need to be kept the same throughout the user experience, speeding up the design process and unifying your voice.",
+            "Crie os termos e frases padronizados que precisam ser mantidos iguais em toda a experiência do usuário, acelerando o processo de design e unificando sua voz.",
         },
         "dl-brand-writing": {
-          title: "Writing guidelines",
+          title: "Diretrizes de escrita",
           description:
-            "Every consistent experience needs watertight writing. Laying down the foundations for your house style early keeps everything in line with consistent grammar, style choices and action-oriented language to help your design.",
+            "Toda experiência consistente precisa de uma escrita impecável. Estabelecer as bases para o estilo da sua casa desde o início mantém tudo alinhado com a gramática consistente, escolhas de estilo e linguagem orientada para a ação para ajudar no design.",
         },
       },
     },
     "dl-logo": {
-      title: "Logo",
+      title: "Logotipo",
       description:
-        "Most customers form an opinion about a product in seconds. In most cases, your logo will be the first brand asset someone sees. It’s all about making the right first impression. A distinctive logo helps users recognise a product immediately and gives them the essence of your branding.",
+        "A maioria dos clientes forma uma opinião sobre um produto em segundos. Em muitos casos, o seu logotipo será o primeiro elemento da marca que alguém vê. É tudo sobre causar a impressão certa no primeiro momento. Um logotipo distintivo ajuda os usuários a reconhecerem um produto imediatamente e transmite a essência da sua marca.",
       checklist: {
         "dl-logo-mono": {
-          title: "Monochrome version",
+          title: "Versão monocromática",
           description:
-            "A monochrome version of your logo that looks good on top of photography or when it’s printed with a poor quality printer.",
+            "Uma versão monocromática do seu logotipo que fica boa em cima de fotografias ou quando é impressa com uma impressora de baixa qualidade.",
         },
         "dl-logo-small": {
-          title: "Small use guidance",
+          title: "Orientação para uso em tamanhos pequenos",
           description:
-            "Your logo must perform well and be recognisable at all sizes. Tips for using your logo in these cases will minimise the risk of it being misused.",
+            "Seu logotipo deve funcionar bem e ser reconhecível em todos os tamanhos. Dicas para usar seu logotipo nesses casos minimizarão o risco de uso incorreto.",
         },
         "dl-logo-placement": {
-          title: "Placement and clearance guidance",
+          title: "Orientação para posicionamento e espaçamento",
           description:
-            "Your logo must come with clear guidance on how to place it and how to preserve its space since it lives along with other content.",
+            "Seu logotipo deve ter orientações claras sobre como posicioná-lo e como preservar seu espaço, já que ele convive com outros conteúdos.",
         },
         "dl-logo-usage": {
-          title: "Usage guidance",
+          title: "Orientação de uso",
           description:
-            "These are the logo crimes, providing contextual examples of what to (not) do with your logo.",
+            "São os crimes do logotipo, fornecendo exemplos contextuais do que fazer (ou não) com seu logotipo.",
         },
         "dl-logo-format": {
-          title: "Different file formats",
+          title: "Diferentes formatos de arquivo",
           description:
-            "Providing a variety of formats for the vector version of your logo will make it easier for others to work and prevent anyone from redrawing it.",
+            "Fornecer uma variedade de formatos para a versão vetorial do seu logotipo facilitará o trabalho de outras pessoas e evitará que alguém o redesenhe.",
         },
       },
     },
     "dl-guidelines": {
-      title: "Guidelines",
+      title: "Diretrizes",
       description:
-        "Providing guidance on how to approach common UX patterns will allow your organisation to establish a consistent approach and a consistent user experience on any platform.",
+        "As diretrizes (em inglês: guidelines) fornecem orientações sobre como abordar padrões comuns de UX permitirá que sua organização estabeleça uma abordagem consistente e uma experiência do usuário consistente em qualquer plataforma.",
       checklist: {
         "dl-guidelines-a11y": {
-          title: "Accessibility",
+          title: "Acessibilidade",
           description:
-            "Guidelines for how you approach accessibility and how you leverage colour, hierarchy and assistive technologies to help your users.",
+            "Diretrizes sobre como abordar a acessibilidade e como aproveitar a cor, hierarquia e tecnologias assistivas para ajudar seus usuários.",
         },
         "dl-guidelines-onboarding": {
-          title: "User onboarding",
+          title: "Onboarding do usuário",
           description:
-            "How you onboard your users to your product or a new feature and give them a great experience from the start.",
+            "Como você integra seus usuários ao seu produto ou a um novo recurso e lhes proporciona uma ótima experiência desde o início.",
         },
         "dl-guidelines-microcopy": {
-          title: "Microcopy guidelines",
+          title: "Diretrizes de microcopy",
           description:
-            "The standard way to write for the components in your design system. These take platform conventions and best practices for writing all into consideration.",
+            "A maneira padrão de escrever para os componentes em seu sistema de design. Isso leva em consideração convenções de plataforma e as melhores práticas de escrita.",
         },
       },
     },

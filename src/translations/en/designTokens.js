@@ -1,138 +1,138 @@
 export default {
-  title: "Design tokens",
+  title: "Tokens de Design",
   description:
-    "Variables that store values for the base layer of your design system, like colour and typography. They’re used in components, so changes on this level will resonate throughout the whole system.",
+    "Variáveis que armazenam valores para a camada base do seu sistema de design, como cor e tipografia. Elas são usadas em componentes, portanto, as alterações nesse nível se refletirão em todo o sistema.",
   sections: {
     "dt-color": {
-      title: "Colour",
+      title: "Cor",
       description:
-        "Not only an efficient way to showcase your brand, but also an efficient way to communicate with your users. Colour palettes created with purpose over aesthetics in mind can help you create intuitive design patterns by adding meaning to your interface.",
+        "Não é apenas uma maneira eficiente de exibir sua marca, mas também uma maneira eficiente de se comunicar com seus usuários. Paletas de cores criadas com um propósito em mente, em vez de apenas estética, podem ajudá-lo a criar padrões de design intuitivos adicionando significado à sua interface.",
       checklist: {
         "dt-color-a11y": {
-          title: "Accessibility",
+          title: "Acessibilidade",
           description:
-            "Make sure to have accessible pairings between the main colours in your palette. More importantly, make sure that your background and text colours have at least an AA standard contrast ratio between them.",
+            "Certifique-se de ter combinações acessíveis entre as cores principais em sua paleta. Mais importante ainda, certifique-se de que as cores de fundo e de texto tenham pelo menos uma proporção de contraste padrão AA entre elas.",
         },
         "dt-color-functional": {
-          title: "Functional colours",
+          title: "Cores funcionais",
           description:
-            "Besides your brand colours, make sure to have colours defined and made into variables for functions like disabled states, backgrounds, actions and high contrast text.",
+            "Além das cores da sua marca, certifique-se de ter cores definidas e transformadas em variáveis ​​para funções como estados desativados, planos de fundo, ações e texto de alto contraste.",
         },
         "dt-color-dark-mode": {
-          title: "Dark mode",
+          title: "Modo escuro",
           description:
-            "Preparing a dark mode version of your colour palette will allow your design system to adapt to dark mode and respect what your user wants to see.",
+            "Preparar uma versão de modo escuro de sua paleta de cores permitirá que seu sistema de design se adapte ao modo escuro e respeite o que seu usuário deseja ver.",
         },
         "dt-color-guidelines": {
-          title: "Guidelines",
+          title: "Diretrizes",
           description:
-            "Provide guidelines on how and when to use the colours in your palette, what to keep in mind when working with them and how not to use them.",
+            "Forneça diretrizes sobre como e quando usar as cores em sua paleta, o que ter em mente ao trabalhar com elas e como não usá-las.",
         },
       },
     },
     "dt-layout": {
       title: "Layout",
       description:
-        "A well thought out layout goes a long way. Consistent use of a grid and spacing makes it easier for your users to scan the user interface and grasp the content.",
+        "Um layout bem pensado vai longe. O uso consistente de uma grade e espaçamento torna mais fácil para seus usuários digitalizar a interface do usuário e compreender o conteúdo.",
       checklist: {
         "dt-layout-units": {
-          title: "Units",
+          title: "Unidades",
           description:
-            "Units are the most granular building blocks for layout. Defining a set of values with consistent increments (such as 4, 8, 12 and 16 for a 4-point system) will provide you with the foundation when you’re designing your grid and spacing values.",
+            "As unidades são os blocos de construção mais granulares para o layout. Definir um conjunto de valores com incrementos consistentes (como 4, 8, 12 e 16 para um sistema de 4 pontos) fornecerá a base quando você estiver projetando suas grades e valores de espaçamento.",
         },
         "dt-layout-grid": {
-          title: "Grid",
+          title: "Grade",
           description:
-            "Every layout should sit on a grid that brings order and hierarchy to the interface. Define a grid separately for mobile, tablet and desktop devices with columns, gutters, and margins so your interface can adapt to any platform easily.",
+            "Todo layout deve se encaixar em uma grade que traga ordem e hierarquia para a interface. Defina uma grade separadamente para dispositivos móveis, tablet e desktop com colunas, margens e espaços para que sua interface possa se adaptar a qualquer plataforma facilmente.",
         },
         "dt-layout-breakpoints": {
-          title: "Breakpoints",
+          title: "Pontos de interrupção",
           description:
-            "Predefine the screen sizes and orientations your grid will adapt to.",
+            "Pré-defina os tamanhos de tela e orientações aos quais sua grade se adaptará.",
         },
         "dt-layout-spacing": {
-          title: "Spacing",
+          title: "Espaçamento",
           description:
-            "Horizontal and vertical rhythm plays a big role in a layout. You should provide easy methods for adding space between interface elements independent of your grid.",
+            "O ritmo horizontal e vertical desempenha um papel importante em um layout. Você deve fornecer métodos fáceis para adicionar espaço entre os elementos da interface, independentemente de sua grade.",
         },
       },
     },
     "dt-typography": {
-      title: "Typography",
+      title: "Tipografia",
       description:
-        "Typography is one of the main ways you surface content in products. A clear hierarchy and contrasting styles in your typography scale will make things easier to read and help with the overall structure of your product. It’s also an opportunity to visualise your brand character and presence.",
+        "A tipografia é uma das principais formas de apresentar o conteúdo em produtos. Uma hierarquia clara e estilos contrastantes em sua escala tipográfica facilitarão a leitura e ajudarão na estrutura geral do seu produto. Também é uma oportunidade para visualizar a personalidade e presença da sua marca.",
       checklist: {
         "dt-typography-mobile": {
-          title: "Responsiveness",
+          title: "Responsividade",
           description:
-            "Desktop devices can usually afford to have bigger font sizes compared to mobile devices. Creating a typography scale that adapts to the viewport size will help with a more meaningful hierarchy and layout.",
+            "Dispositivos desktop geralmente podem ter tamanhos de fonte maiores em comparação com dispositivos móveis. Criar uma escala tipográfica que se adapte ao tamanho da viewport ajudará a ter uma hierarquia e layout mais significativos.",
         },
         "dt-typography-grid": {
-          title: "Grid relation",
+          title: "Relação com o grid",
           description:
-            "Font sizes and leading should match your grid to allow better pairing between text and other UI elements. A good example of this is text paired with icons with bounding boxes.",
+            "Tamanhos de fonte e espaçamento devem corresponder ao seu grid para permitir uma melhor combinação entre texto e outros elementos de UI. Um bom exemplo disso é o texto combinado com ícones com caixas delimitadoras.",
         },
         "dt-typography-readability": {
-          title: "Readability",
+          title: "Legibilidade",
           description:
-            "Optimising the letter spacing (tracking), line height (leading) and line length for your typography scale will help with the readability of text.",
+            "Otimizar o espaçamento das letras (tracking), altura da linha (leading) e comprimento da linha para sua escala tipográfica ajudará na legibilidade do texto.",
         },
         "dt-typography-performance": {
-          title: "Performance",
+          title: "Desempenho",
           description:
-            "Custom fonts need to be downloaded before they can be displayed, especially on the web. Make sure that you have sensible fallbacks and fast loading time for your typography assets. Using system fonts solves this performance problem.",
+            "Fontes personalizadas precisam ser baixadas antes de serem exibidas, especialmente na web. Certifique-se de ter fallbacks sensatos e tempo de carregamento rápido para seus ativos de tipografia. Usar fontes do sistema resolve esse problema de desempenho.",
         },
         "dt-typography-guidelines": {
-          title: "Guidelines",
+          title: "Diretrizes",
           description:
-            "Provide guidelines on how and when to use the pairings in your typography scale, what to keep in mind when working with them and how not to use them.",
+            "Forneça diretrizes sobre como e quando usar as combinações em sua escala tipográfica, o que ter em mente ao trabalhar com elas e como não usá-las.",
         },
       },
     },
     "dt-iconography": {
-      title: "Iconography",
+      title: "Iconografia",
       description:
-        "Icons are symbols that represent functionality or content. They’re especially recognisable and helpful in user interfaces since their meaning can be understood at a glance. hough they can be used just for decoration, their full potential can be realised when they’re used meaningfully and consistently.",
+        "Ícones são símbolos que representam funcionalidade ou conteúdo. Eles são especialmente reconhecíveis e úteis em interfaces de usuário, já que seu significado pode ser compreendido em uma olhada. Embora possam ser usados apenas para decoração, seu potencial completo pode ser realizado quando são usados ​​de maneira significativa e consistente.",
       checklist: {
         "dt-iconography-a11y": {
-          title: "Accessibility",
+          title: "Acessibilidade",
           description:
-            "For icons that convey a meaning or serve a function, offer a default accessible name which expresses that same meaning or function. This name may be used by screen readers and other assistive technologies to orient the user about the interface. For purely decorative icons, a name is not required. If your design system exports front-end code, ensure that the icon name is included, for example using aria-label.",
+            "Para ícones que transmitem um significado ou servem a uma função, ofereça um nome acessível padrão que expresse o mesmo significado ou função. Esse nome pode ser usado por leitores de tela e outras tecnologias assistivas para orientar o usuário sobre a interface. Para ícones puramente decorativos, um nome não é necessário. Se seu sistema de design exporta código front-end, certifique-se de que o nome do ícone esteja incluído, por exemplo, usando aria-label.",
         },
         "dt-iconography-style": {
-          title: "Style",
+          title: "Estilo",
           description:
-            "Make sure that your icon family makes visual sense as a whole. Picking an outlined or filled style and sticking with it will lead to better visual consistency and predictability.",
+            "Certifique-se de que sua família de ícones faça sentido visualmente como um todo. Escolher um estilo preenchido ou esboçado e mantê-lo levará a uma melhor consistência visual e previsibilidade.",
         },
         "dt-iconography-naming": {
-          title: "Naming",
+          title: "Nomeação",
           description:
-            "Name your icons based on their communicative purpose, rather than how they look. For instance, a triangular media player play button icon should be named 'play', not 'triangle'. You can still add related keywords to improve discoverability.",
+            "Dê nomes aos seus ícones com base em seu propósito comunicativo, em vez de como eles parecem. Por exemplo, um ícone de botão de reprodução de mídia triangular deve ser chamado de 'play', não de 'triângulo'. Você ainda pode adicionar palavras-chave relacionadas para melhorar a descoberta.",
         },
         "dt-iconography-grid": {
-          title: "Relation with grid",
+          title: "Relação com a grade",
           description:
-            "Draw your icons in a bounding box that plays well with your grid. This makes for a better pairing with other UI elements. A good example of this would be icons with bounding boxes paired with text.",
+            "Desenhe seus ícones em uma caixa delimitadora que se ajuste bem à sua grade. Isso torna melhor o pareamento com outros elementos da interface do usuário. Um bom exemplo disso seriam ícones com caixas delimitadoras emparelhados com texto.",
         },
         "dt-iconography-sizes": {
-          title: "Sizes",
+          title: "Tamanhos",
           description:
-            "Provide different sizes for icons that correlate to your grid. Provide a minimum size and remove unnecessary detail for your icons for smaller sizes.",
+            "Forneça diferentes tamanhos de ícones que se correlacionem com sua grade. Forneça um tamanho mínimo e remova detalhes desnecessários para seus ícones menores.",
         },
         "dt-iconography-keywords": {
-          title: "Keywords",
+          title: "Palavras-chave",
           description:
-            "Adding keywords will improve the discoverability of each icon and provide a better user experience for anyone using your system.",
+            "Adicionar palavras-chave melhorará a descoberta de cada ícone e fornecerá uma melhor experiência do usuário para quem usar seu sistema.",
         },
         "dt-iconography-reserved": {
-          title: "Reserved icons",
+          title: "Ícones reservados",
           description:
-            "Reserving icons that represent common actions will prevent their use in any other context. System icons for navigation or adding and deleting are a good example. This leads to a more intuitive user experience.",
+            "Reservar ícones que representem ações comuns impedirá seu uso em qualquer outro contexto. Ícones do sistema para navegação ou adição e exclusão são um bom exemplo. Isso leva a uma experiência do usuário mais intuitiva.",
         },
         "dt-iconography-guidelines": {
-          title: "Guidelines",
+          title: "Diretrizes",
           description:
-            "Provide guidelines on how and when to use icons, what to keep in mind when working with them and how not to use them.",
+            "Forneça diretrizes sobre como e quando usar ícones, o que ter em mente ao trabalhar com eles e como não usá-los.",
         },
       },
     },
