@@ -40,7 +40,7 @@ const Header = ({ tCore }) => {
       </span>
 
       <nav className={navClassName}>
-        <ul>
+        <ul className={s.menu}>
           <li className={s.item}>
             <Link href="/sobre" onClick={closeMenu}>
               {tCore.about}
