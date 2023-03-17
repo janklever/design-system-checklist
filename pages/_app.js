@@ -62,7 +62,7 @@ const App = ({ Component, pageProps }) => {
         <link rel="icon" href="https://designsystemchecklist.com.br/favicon.ico" />
         <link
           rel="apple-touch-icon"
-          sizes="152x152"
+          sizes="180x180"
           href="https://designsystemchecklist.com.br/apple-touch-icon.png"
         />
         <link
